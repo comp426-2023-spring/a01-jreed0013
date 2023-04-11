@@ -1,0 +1,31 @@
+{
+  "name": "jreed0013-webserver",
+  "version": "1.0.0",
+  "description": "This package contains a very simple web server that takes one argument for port and then serves any files inside the public directory.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js --port=5555"
+  },
+  "keywords": [
+    "web",
+    "server",
+    "port",
+    "node",
+    "fs",
+    "args",
+    "http"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a01-jreed0013.git"
+  },
+  "author": "jreed0013",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a01-jreed0013/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a01-jreed0013#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
